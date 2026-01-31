@@ -1,0 +1,32 @@
+# Fichiers et dossiers à ignorer par Git
+
+# Dossiers sensibles
+config/
+logs/
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnements virtuels
+.venv/
+venv/
+ENV/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.swp
+*.swo
+
+# Fichiers secrets
+*.json:Zone.Identifier
+*.py:Zone.Identifier
+
+# Autres
+*.log
